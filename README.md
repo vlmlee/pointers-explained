@@ -20,7 +20,7 @@ It should really be explained step by step in the simplest way possible, so I'll
 
 `c := &b` : this would initialize a variable `c` that *gets* the *memory address* of the value `b` (or the value in `*p` but at a different memory address since `b` and `*p` are distinct) and this *is* a pointer because the value that `c` holds is a *memory address*. `&b` is *not* a pointer, the variable `c` is the pointer. Remember to distinguish *operations* from *variables* and *values*, which are all different things.
 
-***
+--
 
 `c := &b (==) c:= &(*p)` is **false**
 
@@ -34,7 +34,7 @@ This should be true and correct because dereferencing and referencing gives you 
 
 it should be false because `b's` pointer is pointing to `b's` address which is different than `z's` address
 
-****
+--
 
 `d := &c`   : `d` is a pointer *of* a pointer. It holds the memory location of the variable `c` which holds the memory location of `b` which is a value of datatype int. 
 
