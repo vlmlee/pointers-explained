@@ -1,4 +1,4 @@
-### This is a reddit post I made to simplify pointers for people who haven't used pointers before.
+### This is a reddit post I made to simplify pointers for people who haven't used pointers before. It is a *compendium* clarifying a lot of pointer operations.
 
 --
 
