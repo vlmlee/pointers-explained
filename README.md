@@ -2,9 +2,11 @@
 
 --
 
-I think the `&` and `*` are confusing because whenever people are talking about those *operators*, they use terminology without explaining the terminology and how the positions of the symbols matters. For instance, what does `var p *int` even mean to someone who doesn't know how memory is allocated in a program? It should really be explained step by step in the simplest way possible, so I'll try with some examples. Lets start with:
+I think the `&` and `*` are confusing because whenever people are talking about those *operators*, they use terminology without explaining the terminology and how the positions of the symbols matters. For instance, what does `var p *int` even mean to someone who doesn't know how memory is allocated in a program? 
 
-`var p *int`   : this means that variable p *is* a pointer *to* a value of the datatype int. 
+It should really be explained step by step in the simplest way possible, so I'll try with some examples. Lets start with:
+
+`var p *int`   : this means that variable `p` *is* a pointer *to* a value of the datatype int. 
 
 `a := p`   : this would initialize a variable called `a` that is a pointer *of* the same value as `p` *to* a value of datatype int. So pointers are values in this way and they hold the *memory address* of whatever value they're referencing. `a` and `p` would be two variables in two *different* address spaces but would *hold* that same value. Every new variable you create has its own address space. If you want to refer to a variable using only one address space, don't declare any new variables!
 
