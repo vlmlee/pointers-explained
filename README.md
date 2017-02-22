@@ -1,5 +1,4 @@
-## pointers-explained
-My reddit post simplifying pointers for beginners.
+### This is a reddit post I made to simplify pointers for people who haven't used pointers before.
 
 --
 
