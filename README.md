@@ -2,9 +2,9 @@
 
 --
 
-I think the `&` and `*` are confusing because whenever people are talking about those *operators*, they use terminology without explaining the terminology and how the positions of the symbols matters. For instance, what does `var p *int` even mean to someone who doesn't know how memory is allocated in a program? 
+I think the `&` and `*` are confusing because whenever people are talking about those *operators*, they use terminology without explaining the terminology and how the positions of the symbols matters. For instance, what does `var p *int` even mean to someone who doesn't know how memory is allocated in a program? It should really be explained step by step in the simplest way possible, so I'll try with some examples. 
 
-It should really be explained step by step in the simplest way possible, so I'll try with some examples. Lets start with:
+Lets start with:
 
 `var p *int`   : this means that variable `p` *is* a pointer *to* a value of the datatype int. 
 
